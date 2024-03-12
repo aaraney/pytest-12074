@@ -1,0 +1,15 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "setuptools-scm"]
+
+[project]
+authors = [
+  {name = "Austin Raney", email = "aaraney@protonmail.com"},
+]
+name = "ns.bar"
+version = "0.0.1"
+
+
+[tool.setuptools]
+packages = ["ns.bar"]
+
